@@ -6,24 +6,66 @@
     background-image: url('https://www.pixelstalk.net/wp-content/uploads/2016/05/Art-Dota-2-Logo-Wallpapers.jpg');
     background-size: cover
 }
-
+#single{
+    background-image: url('https://www.pixelstalk.net/wp-content/uploads/2016/05/Art-Dota-2-Logo-Wallpapers.jpg');
+    background-size: cover
+}
 div{
     margin: 1% auto;
     font-size: 1.5em;
     background-color: #fff;
-    background-color: rgba(255,255,255,0.1)
+    background-color: rgba(255,255,255,0.1);
+    padding:1em;
+    outline:5px solid rgba(255,255,255,0.2)
 }
 a{
     text-decoration: none;
     color: white;
-    font-family: monospace
+    font-family: monospace;
+    outline:5px solid rgba(255,255,255,0.2);
+    background-color: #fff;
+    background-color: rgba(255,255,255,0.4)
 }
 p{
     color:white;
     font-size: .6em;
     font-family: monospace
+    
 }
 h1{
     color: white;
-    font-family: monospace
+    font-family: monospace;
+    font-size: 3em;
+    text-align: center;
+    background-color: #fff;
+    background-color: rgba(255,255,255,0.2);
+    text-shadow:2px 2px black;
+    outline:5px solid rgba(255,255,255,0.4)
+}
+img{
+    background-color: #fff;
+    background-color: rgba(255,255,255,0.5);
+    margin: 0 auto;
+    display:block
+}
+h5{
+color:white;
+font-size:1em;
+font-family: monospace;
+background-color: #fff;
+background-color: rgba(255,255,255,0.3);
+text-shadow:2px 2px black
+}
+h2{
+    color: white;
+    font-family: monospace;
+    font-size: 1em;
+    text-align: center;
+    background-color: #fff;
+    background-color: rgba(255,255,255,0.2);
+    text-shadow:2px 2px black;
+    outline:5px solid rgba(255,255,255,0.4);
+    display:block;
+   margin:0 auto;
+    max-width: 30%
 }
